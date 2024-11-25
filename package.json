@@ -4,13 +4,13 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "start":  "node api/index.js"
-    
+    "start": "node api/index.js"
   },
   "author": "LEO",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.1"
   }
 }
